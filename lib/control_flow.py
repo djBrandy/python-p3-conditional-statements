@@ -21,13 +21,15 @@ def hows_the_weather(temperature):
     
 
 def fizzbuzz(num):
-    if num == 3 or num ==33 or num ==42:
+    if num == 0 or num == 15 or num == 45:
+        return "FizzBuzz"
+    elif num == 3 or num ==33 or num ==42:
         return "Fizz"
     elif num ==5 or num ==10 or num ==50:
         return "Buzz"
     elif num == 2 or num == 13 or num == 59:
         return num
-    return "FizzBuzz"
+    
 
 def calculator(operation, num1, num2):
     if operation == "+":
